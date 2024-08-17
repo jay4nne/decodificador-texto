@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Textos</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+                
+</head>
+<body>
+  <main class="conteudo__decodificador">
+    <section class="area__apresentacao">
+      <h1>Decodificador de Textos</h1>
+      <h2 class="titulo__input">Converta suas mensagens em segundos!</h2>
+      <p>Insira o texto que deseja codificar ou decodificar e clique no botão correspondente.</p>
+      <textarea placeholder="Insira seu texto aqui"></textarea>
+      <p id="texto__aviso">Apenas palavras com vogais e sem acentos</p>
+      <div class="botoes__criptografia">
+        <button id="codificar__btn">Codificar</button>
+        <button id="decodificar__btn">Decodificar</button>
+      </div>
+    </section>
+    <section class="area__resultado">
+      <img id="imagem__area__resultado" src="./assets/imagem-secao2.png" width="240" height="190" alt="Ilustração de uma pessoa segurando uma lupa">
+      <h3 id="mensagem__inicial">NENHUMA MENSAGEM ENCONTRADA</h3>
+      <h3 id="titulo__texto__codificado">TEXTO CODIFICADO</h3>
+      <h3 id="titulo__texto__decodificado">TEXTO DECODIFICADO</h3>
+      <p id="mensagem__indicador">Seu texto aparecerá aqui.</p>
+      <p id="texto__resultante">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam laboriosam facere rerum molestias quam excepturi eligendi, ab vitae magni hic doloremque odit iusto corrupti reiciendis culpa necessitatibus est soluta ducimus!
+      </p>
+      <button id="copiar__texto__btn">Copiar</button>
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>Desenvolvido por Jayanne Cabral | 2024</p>
+  </footer>
+
+  <script src="/app.js"></script>
+
+</body>
+</html>

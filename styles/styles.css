@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --cor-principal--fonte: #191919;
+  --cor-secundaria--fonte: #d73cbe;
+  --fonte-principal: "TT Norms Pro";
+}
+
+body {
+  height: 100vh;
+  background-color: #ffefcb;
+  color: var(--cor-principal);
+}
+
+main {
+  width: 1200px;
+  height: 600px;
+  margin: auto auto 1rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: var(--fonte-principal);
+}
+
+
+h1 {
+  font-family: var(--fonte-principal);
+  font-size: 3.5rem;
+  font-weight: 500;
+
+  color: var(--cor-principal--fonte);
+}
+
+.titulo__input {
+  margin-bottom: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.area__apresentacao p {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 50rem;
+  height: 28rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  resize: none;
+  overflow: auto;
+}
+
+.botoes__criptografia{
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  width: 25rem;
+  height: 3.2rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+button:hover {
+  font-weight: bold;
+  color: var(--cor-secundaria--fonte);
+}
+
+#texto__aviso {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.area__resultado {
+  width: 35rem;
+  display: block;
+  justify-content: center;
+}
+
+.area__resultado h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.area__resultado p {
+  max-width: 350px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+#texto__resultante {
+  display: none;
+}
+
+#titulo__texto__codificado {
+  display: none;
+}
+
+#titulo__texto__decodificado {
+  display: none;
+}
+
+#copiar__texto__btn {
+  display: none;
+}
+
+.rodape {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--cor-principal--fonte);
+  opacity: 60%;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px){
+  main {
+    display: block;
+    margin-left: 3rem;
+  }
+
+  .area__apresentacao {
+    margin-top: 4rem;
+  }
+
+  textarea {
+    width: 50rem;
+    height: 20rem;
+}
+}
+
+
+@media(max-width: 530px){
+  
+.area__apresentacao {
+    max-width: 30rem;
+  }
+
+textarea {
+    width: 100%;
+    max-width: 30rem;
+    height: 20rem;
+    font-size: 1.2rem;
+ }
+
+textarea::placeholder {
+    font-size: 1rem;
+  }
+
+.area__apresentacao p, .area__resultado p, .titulo__input{
+   font-size: 1.2rem;
+ }
+
+.botoes__criptografia {
+   display: block;
+ }
+
+button {
+   width: 100%;
+   max-width: 30rem;
+   height: 3rem;
+   font-size: 1.1rem;
+}
+
+#texto__aviso{
+  font-size: 1rem;
+}
+
+.area__resultado {
+  margin-top: 3rem;
+}
+
+.imagem__area__resultado {
+  width: 100%;
+  max-width: 50%;
+  height: 160px;
+}
+
+.area__resultado h3 {
+  font-size: 1.4rem;
+}
+
+.area__apresentacao h1 {
+  font-size: 2.4rem;
+}
+
+.rodape {
+  margin-top: 10rem;
+}
+}
