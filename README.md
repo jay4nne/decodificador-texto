@@ -20,6 +20,6 @@ O Decodificador de Textos é uma aplicação web que permite codificar e decodif
 ## Layout
 Aqui estão capturas de tela do layout nas versões desktop e mobile:
 
-<img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-desktop.png?raw=true" width="1000" height="500">
+<img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-desktop.png?raw=true" width="600" height="300">
 
-<img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-mobile.png?raw=true" width="400" height="900"> <img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-mobile2.png?raw=true" width="400" height="900">
+<img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-mobile.png?raw=true" width="250" height="450"> <img src="https://github.com/jay4nne/decodificador-texto/blob/main/assets/decodificador-mobile2.png?raw=true" width="250" height="450">
